@@ -1,0 +1,15 @@
+# config/blacklist.txt
+# Example blacklist patterns. One per line.
+# Use '*' as a wildcard per octet. Comments start with '#'.
+
+# Block Google public DNS (example)
+8.8.8.8
+8.8.4.4
+
+# Block a private range
+192.168.*.*
+
+# Block specific host
+203.0.113.5
+
+# allow editing: add your own patterns here
